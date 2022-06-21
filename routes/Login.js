@@ -790,6 +790,7 @@ router.post("/bankLogin", function (req, res) {
 				res.status(200).json({
 					token: token,
 					name: bank.name,
+					code: bank.bcode,
 					initial_setup: bank.initial_setup,
 					username: bank.username,
 					mobile: bank.mobile,
