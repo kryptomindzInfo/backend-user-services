@@ -248,7 +248,7 @@ router.post("/ipfsUpload", function (req, res) {
 async function fileUpload(path) {
 	const options = {
 		method: "POST",
-		uri: "http://" + config.blockChainIP + ":5001/api/v0/add",
+		uri: "http://" + config.ipfsIP + ":5001/api/v0/add",
 		headers: {
 			"Content-Type": "multipart/form-data",
 		},

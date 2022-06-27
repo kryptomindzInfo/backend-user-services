@@ -6,7 +6,8 @@
 	"defaultFee": 0,
 	"defaultAmt": 0,
 	"blockChainIP": "beyondewallet-app-clusterip",
-	"mainIP": "91d90ac373dc.sn.mynetname.net:31080",
+	"ipfsIP": "beyondewallet-ipfs-clusterip",
+	"mainIP": "165.227.198.78:31080",
 	"uploadPath": "/var/app/uploads/",
 	"rabbitmqIP": "rabbitmq-clusterip"
 }
